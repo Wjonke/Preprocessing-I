@@ -17,13 +17,29 @@
 
 
 <body>
+
+  <nav id="navagation">
+    <div class="navbar">
+      <a href="#intro">Introduction</a>
+      <a href="#history">Work History</a>
+      <a href="#education">Education</a>
+      <a href="#military">Military</a>
+      <a href="#certifications">Certifications</a>
+      <a href="#skills">Skills</a>
+      <a href="#contact">Contact Me</a>
+    </div>
+  </nav>
+
   <header>
-    <img class="selfImg" src="Images/selfportrait.jpg" alt="self portrait">
+    <img class="selfImg" id="intro" src="Images/selfportrait.jpg" alt="self portrait">
     <div class="contact"> 
-      <h1>Contact me:</h1>
+      <h1 id="contact">Contact me:</h1>
       <h1>Wes Jonke</h1>
-      <h2>WesJonke@Gmail.com</h2>
       <h2>2923 Cravenridge Drive<br>Brookhaven, GA<br> 30319</h2>
+      <h2>WesJonke@Gmail.com</h2>
+      <h2>419-410-7796</h2>
+      <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">Click here for my GitHub Repositories</a><br>
+      <a class="linkbutton" href="https://wjonke.github.io/portfolio-website/" target="_blank">Click here to view my Portfolio</a>
     </div>
   </header>
 
@@ -35,7 +51,7 @@
 
   <section class="mainContent">
 
-    <div class="workhistory">
+    <div class="workhistory" id="history">
       <h2>Work History</h2>
         <h3>Senior Project Manager</h3>
         <h4>1Choice Solutions - Norcross, GA</h4>
@@ -85,7 +101,7 @@
 
 
 
-        <div class="education">
+        <div class="education" id="education">
           <h2>Education</h2>
             <h3>Some college in Small Business Management</h3>
             <h4>Northwest State Community College - Archebold, OH</h4>
@@ -98,7 +114,7 @@
 
 
 
-        <div class="skills">
+        <div class="skills" id="skills">
           <h2>Skills</h2>
           <h3>Front-end Development</h3>
           <ul> 
@@ -115,7 +131,7 @@
 
 
 
-        <div class="Military Service">
+        <div class="Military Service" id="military">
           <h2>Military Service</h2>
           <h3>Branch: United States National Guard</h3>
           <h4>MOS:  13B-U6: Cannon Crew Member</h4>
@@ -125,7 +141,7 @@
 
 
 
-        <div class= "Certs">
+        <div class= "Certs" id="certifications">
           <h2>Certifications and licenses</h2>
           <h3>Low Voltage License - State of GA - LVA</h3>
           <h4>August 2018 - Current</h4>
@@ -138,29 +154,17 @@
           </ul>
         </div>
 
-
-
-        <div class="assessments">
-          <h2>Assessments</h2>
-            <h3>Organizational Skills — Highly Proficient</h3>
-            <p>View my full results at: https://share.indeedassessments.com/share_assignment/qrolf1zcdkkiznya</p>
-            
-            <h3>Project Management Skills: Budgeting — Proficient</h3>
-            <p>View my full results at: https://share.indeedassessments.com/share_assignment/futi-ovo1-mdwwe</p>
-            
-            <h3>Project Management Skills: Time Management — Highly Proficient</h3>
-            <p>View my full results at: https://share.indeedassessments.com/share_assignment/9wdpqo9ork8jso3v</p>
-        </div>
-
   </section>
 
 
   <footer>
     <h2>Additional Information</h2>
-    <li>References available upon request</li>
-    <li>Clean background and driving record</li>
-    <li>Expired Secret Security Clearance - Eligible to renew if needed</li>
-    <li>To view my current projects click HERE!</li>
+    <div>
+      <li>References available upon request</li>
+      <li>Clean background and driving record</li>
+      <li>Expired Secret Security Clearance - Eligible to renew if needed</li>
+      <li>To view my current projects click <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">HERE!</a></li>
+    </div>
   </footer>
 
 
