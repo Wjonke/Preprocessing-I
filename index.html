@@ -5,8 +5,11 @@
   <meta charset="utf-8">
 
   <title>My Resume</title>
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans"
+   rel="stylesheet">
+   <link href="https://fonts.googleapis.com/css?family=Open+Sans|Wendy+One" rel="stylesheet">
   <link rel="stylesheet" href="css/index.css">
+  
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -24,33 +27,41 @@
       <a href="#intro">Introduction</a>
       <a href="#history">Work History</a>
       <a href="#education">Education</a>
+      
+      <a href="#skills">Skills</a>
       <a href="#military">Military</a>
       <a href="#certifications">Certifications</a>
-      <a href="#skills">Skills</a>
       <a href="#contact">Contact Me</a>
     </div>
   
 <div class="main-container">
 
-  <div></div>
+  
+    <h1 id="intro">Wes Jonke</h1>
+
     <header>
-      <div class="myname">
-      <h1 id="intro">Wes Jonke</h1>
-    </div>
-      <img class="selfImg"  src="Images/selfportrait.jpg" alt="self portrait">
       <div class="contact"> 
-        <h1 id="contact">Contact me:</h1><br>
-        
-        <h2>2923 Cravenridge Drive<br>Brookhaven, GA<br> 30319</h2><br>
-        <h2>WesJonke@Gmail.com</h2>
-        <h2>419-410-7796</h2>
-        <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">Click here for my GitHub Repositories</a><br>
-        <a class="linkbutton" href="https://wjonke.github.io/portfolio-website/" target="_blank">Click here to view my Portfolio</a>
+
+          <div> 
+            <img class="selfImg"  src="Images/selfportrait.jpg" alt="self portrait">
+          </div>
+
+        <div class="address">
+            <h2 class="contactheader" id="contact">Contact me:</h2>
+          <h4 class="addressline">2923 Cravenridge Drive<br>Brookhaven, GA<br> 30319</h3><br>
+          <h4 class="addressline">WesJonke@Gmail.com</h4>
+          <h4 class="addressline">419-410-7796</h4>
+        </div>
+        <div class="links">  
+          <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">Click here for my GitHub Repositories</a><br>
+          <a class="linkbutton" href="https://wjonke.github.io/portfolio-website/" target="_blank">Click here to view my Portfolio</a>
+        </div>
+
       </div>
     </header>
 
 
-    <section class="intro">
+    <section id="introduction">
       <p><strong>Senior Project Manager</strong> looking to further my experience in a new field. I am currently enrolled in lambda Schools for Full Stack Development and anticipate graduation in January of 2020. I would be very receptive to a position that would utilize my current skill set, as well as, incorporate the skills I am currently learning.</p>
     </section>
 
@@ -58,10 +69,10 @@
     <section class="mainContent">
 
       <div class="workhistory" id="history">
-        <h2>Work History</h2>
+        <h2>Work History</h2><br>
           <h3>Senior Project Manager</h3>
           <h4>1Choice Solutions - Norcross, GA</h4>
-          <h5>May 2016 to February 2019</h5>
+          <h5>May 2016 to February 2019</h5><br>
           <p>I was responsible for the oversight of all work being completed by the company, as well as;
           managing several national accounts, yearly Roll-out Scheduling, Mapping and Routing jobs, Technician
           Management, Inventory Management, Product Sourcing, Client Relations and Escalations, on-site
@@ -72,17 +83,18 @@
           100% completion rates throughout the year. Each year the project grew substantially and we were able
           to scale our standards and practices we had used the previous year.
           I also helped create and maintain the standards and practices used with this successful Roll-out.
-          
+          <hr>
           <h3>Superintendent/Foreman</h3>
           <h4>Amacher Brothers - Doraville, GA</h4>
           <h5>February 2015 to May 2016</h5>
           <p>Oversaw daily construction, on-site, for general construction.
           Projects ranged in size from small restaurants to field houses for Gwinette county Schools.</p>
+          <br><br>          <hr>
 
           <h3>Field Artillery Cannon Crewmember 13B-U6</h3>
             <h4>UNITED STATES ARMY NATION GUARD - Piqua, OH</h4>
-            <h5>October 2008 to October 2015</h5>
-            <p>As a Cannon crewmember, I performed the following duties:</p>
+            <h5>October 2008 to October 2015</h5><br>
+            <h5>As a Cannon crewmember, I performed the following duties:<h5>
             <ul>
               <li>Operate high technology cannon artillery weapon systems.</li>
               <li>Load and fire howitzers.</li>
@@ -95,8 +107,9 @@
               <li>Communicate using voice and digital wire and radio equipment.</li>
               <li>Supervise handling, transportation, accountability, and distribution of ammunition.</li>
               <li>Supervise the operation, loading, and maintenance of the Field Artillery Ammunition Support Vehicle.</li>
-            </ul>
+            </ul><br><br><br>
             <h5>Additional Certifications and Training:</h5>
+            <br>
             <ul> 
               <li>Harris Radio Certified</li>
               <li>U-6 Training - Field Artillery Maintenance and Mechanic course</li>
@@ -112,7 +125,7 @@
               <h3>Some college in Small Business Management</h3>
               <h4>Northwest State Community College - Archebold, OH</h4>
               <h4>August 2001 to June 2003</h4>
-              
+              <hr>
               <h3>High school</h3>
               <h4>Pike-Delta-York High School - Delta, OH</h4>
               <h4>August 1998 to June 2001</h4>
@@ -122,55 +135,79 @@
 
           <div class="skills" id="skills">
             <h2>Skills</h2>
-            <h3>Front-end Development</h3>
-            <ul> 
-              <li></li>
-            </ul>
+            <div class="frontskills">
+              <h3>Front-end Development</h3>
+              <div> 
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>LESS</li>
+              </div>
+            </div>
+            <hr>
+            <div class="backskills">
+              <h3>Project Management</h3>
+              <div>
+                <div class="skillsleft">
+                  <li>Microsoft Office Products (10+ years)</li> <li>Scheduling (10+ years)</li> <li>Budgeting (4 years)</li> <li>Google Products (4 years)</li> <li>Data Entry (4 years)</li>
+                  <li>Product Sourcing (4 years)</li> <li>Staff Management (10+ years)</li> 
+                </div>
 
-            <h3>Project Management</h3>
-            <ul>
-              <li>Microsoft Office Products (10+ years)</li> <li>Scheduling (10+ years)</li> <li>Budgeting (4 years)</li> <li>Google Products (4 years)</li> <li>Data Entry (4 years)</li> <li>Product Sourcing (4 years)</li> <li>Staff Management (10+ years)</li> <li>Project Management (4 years)</li> <li>Routing and Logistics (4 years)</li> <li>Field Service Management Software (Service
-              Fusion and Razor Sync) (4 years)</li> <li>Location Mapping and Routing Software (Google and Route Savvy) (4
-              years)</li> <li>Punctuality (20+ years)</li>
-            </ul>
+                <div class="skillsright">
+                    <li>Project Management (4 years)</li> <li>Routing and Logistics (4 years)</li>
+                  <li>Field Service Management Software (ServiceFusion and Razor Sync) (4 years)</li> <li>Location Mapping and Routing Software (Google and Route Savvy) (4
+                  years)</li> <li>Punctuality (20+ years)</li>
+                </div>
+              </div>
+            </div>
           </div>
 
 
 
-          <div class="Military Service" id="military">
+          <div class="militaryservice" id="military">
             <h2>Military Service</h2>
-            <h3>Branch: United States National Guard</h3>
-            <h4>MOS:  13B-U6: Cannon Crew Member</h4>
-            <h4>Rank: E4 Promotable</h4>
-            <h4>Honorably Discharged at end of contract</h4>
+            <h3>United States National Guard</h3>
+            <h5>MOS:  13B-U6: Cannon Crew Member</h5>
+            <h5>Rank: E4 Promotable</h5>
+            <h5>Honorably Discharged at end of contract</h5>
           </div>
 
 
 
-          <div class= "Certs" id="certifications">
+          <div class="certs" id="certifications">
             <h2>Certifications and licenses</h2>
             <h3>Low Voltage License - State of GA - LVA</h3>
             <h4>August 2018 - Current</h4>
             <p>I am licensed in the state of Georgia to perform low voltage work, not including Telecom.</p>
             <h3>Additional Military Certifications</h3>
-            <ul>Harris Radio certified
+            <li>Harris Radio certified</li>
               <li>U-6 Training - Field Artillery Maintenance and Mechanic course</li>
               <li>MRAP certified</li>
               <li>Raven UAV Training</li>
-            </ul>
           </div>
 
     </section>
 
 
     <footer>
-      <h2>Additional Information</h2>
-      <div>
-        <li>References available upon request</li>
-        <li>Clean background and driving record</li>
-        <li>Expired Secret Security Clearance - Eligible to renew if needed</li>
-        <li>To view my current projects click <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">HERE!</a></li>
+      <div id="addinfo">
+        <h2>Additional Information</h2>
+        <div>
+          <li>References available upon request</li>
+          <li>Clean criminal background and driving record</li>
+          <li>Expired Secret Security Clearance - Eligible to renew if needed</li>
+        <div class="bottomlink">To view my current projects click <a class="linkbutton" href="https://github.com/Wjonke?tab=repositories" target="_blank">HERE!</a>
+        </div>
+        </div>
       </div>
+      <div class="navbarbottom">
+          <a href="#intro">Introduction</a>
+          <a href="#history">Work History</a>
+          <a href="#education">Education</a>
+          <a href="#military">Military</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact Me</a>
+        </div>
     </footer>
   </div>
 
