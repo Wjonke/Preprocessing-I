@@ -2,89 +2,194 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
-
-html, body {
-    height: 100%;
+html,
+body {
+  height: 100%;
 }
-
-/*                  RESET ABOVE                  */
-
-
-
+/*------------------------reset above ----------------*/
+h1 {
+  font-size: 2.7em;
+  font-family: 'Open Sans', sans-serif;
+}
+h2 {
+  font-size: 2.25em;
+  font-family: 'Open Sans', sans-serif;
+}
+h3 {
+  font-size: 1.75em;
+  font-family: 'Open Sans', sans-serif;
+}
+h4 {
+  font-size: 1.5em;
+  font-family: 'Open Sans', sans-serif;
+}
+h5 {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+p {
+  font-size: 0.75em;
+  font-family: 'Open Sans', sans-serif;
+}
+strong {
+  font-size: 1.6em;
+  font-family: 'Open Sans', sans-serif;
+}
+body {
+  display: flex;
+  flex-flow: wrap;
+  margin-top: 50px;
+  width: 100%;
+  height: 1600px;
+  border: 1px solid red;
+}
 .navbar {
-	overflow: hidden;
-	background-color: #333;
-	position: fixed; 
-	top: 0; 
-	width: 100%; 
-  }
-  
-  
-  .navbar a {
-	float: left;
-	display: block;
-	color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-  }
-  
-  
-  .navbar a:hover {
-	background: #ddd;
-	color: black;
-  }
-
-
-
-
-
-
+  display: flex;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  justify-content: space-around;
+  align-content: center;
+}
+.navbar a {
+  color: #a19494;
+  padding: 14px 40px;
+  text-decoration: none;
+  text-align: center;
+  width: 14%;
+}
+.navbar a:hover {
+  background: #684848;
+  color: black;
+  border: 1px solid black;
+}
