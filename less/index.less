@@ -74,7 +74,7 @@ ul{
 
 h1 {
 	font-size: 4em;
-	font-family: 'Wendy One', sans-serif;
+	font-family:@font-family;
 }
 
 h2{
@@ -119,7 +119,7 @@ body{
 	flex-flow: wrap;
 	margin-top: 45px;
 	width: 100%;
-	height: 4725px;
+	height: 4722px;
 	background-image: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 	background-repeat: no-repeat;
 	background-position: right top;
@@ -165,19 +165,7 @@ body{
 	}
 }
 header{
-	display: flex;
-	flex-wrap: wrap;
-	border: 1px solid white;
-	width: 80%;
-	height: 350px;
-	margin: 0 auto;
-	line-height: 1.5;
-	background-color: rgb(61, 63, 90);
-	border-radius: 5px;
-	justify-content: center;
-	margin-top: 10px;
-	
-
+	.standardposition();
 	.selfImg{
 		width: 180px;
 		height: 275px;
@@ -219,7 +207,7 @@ header{
 
 	.linkbutton {
 		text-decoration: none;
-		color:white;
+		color:@standardtext;
 		border: 1px solid white;
 		border-radius: 5px;
 		padding: 5px;
@@ -257,7 +245,7 @@ header{
 		flex-direction: column;
 		border: 1px solid white;
 		width: 100%;
-		height: 1700px;
+		height: 1850px;
 		margin: 0 auto;
 		line-height: 1;
 		background-color: rgb(61, 63, 90);
@@ -410,11 +398,11 @@ footer{
 		text-decoration: none;
 		color:white;
 		border: 1px solid white;
-		border-radius: 5px;
+		
 		padding: 5px;
-		background-color: rgb(61, 63, 90);
+		.standardbox();
 		width:25%;
-		margin:30px auto;
+		margin:0px auto;
 		text-align: center;
 		
 
@@ -430,7 +418,7 @@ footer{
 		justify-content: space-around;
 		align-content: center;
 		a {
-			color: white;
+			color: @standardtext;
 			padding: 14px 40px;
 			text-decoration: none;
 			text-align: center;
@@ -445,8 +433,34 @@ footer{
 	}
   
 }
-  
+  /*   mixins     */
 
+  .standardposition{
+	display: flex;
+	flex-wrap: wrap;
+	border: 1px solid white;
+	width: 80%;
+	height: 350px;
+	margin: 0 auto;
+	line-height: 1.5;
+	background-color: rgb(61, 63, 90);
+	border-radius: 5px;
+	justify-content: center;
+	margin-top: 10px;
+  }
+
+  .standardbox{
+	border-radius: 5px;
+	background-color: rgb(61, 63, 90);
+  }
   
+  /* font and color variables*/
+
+  @font-family: 'Wendy One', sans-serif;
+  @standardtext:white;
+
+
+  /*  media at if's*/
+
   
   

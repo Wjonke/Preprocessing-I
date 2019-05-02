@@ -182,7 +182,7 @@ body {
   flex-flow: wrap;
   margin-top: 45px;
   width: 100%;
-  height: 4725px;
+  height: 4722px;
   background-image: url(https://images.pexels.com/photos/1308624/pexels-photo-1308624.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
   background-repeat: no-repeat;
   background-position: right top;
@@ -307,7 +307,7 @@ header .linkbutton {
   flex-direction: column;
   border: 1px solid white;
   width: 100%;
-  height: 1700px;
+  height: 1850px;
   margin: 0 auto;
   line-height: 1;
   background-color: #3d3f5a;
@@ -503,11 +503,11 @@ footer .bottomlink {
   text-decoration: none;
   color: white;
   border: 1px solid white;
-  border-radius: 5px;
   padding: 5px;
+  border-radius: 5px;
   background-color: #3d3f5a;
   width: 25%;
-  margin: 30px auto;
+  margin: 0px auto;
   text-align: center;
 }
 footer .navbarbottom {
@@ -533,3 +533,23 @@ footer .navbarbottom a:hover {
   color: black;
   border: 1px solid black;
 }
+/*   mixins     */
+.standardposition {
+  display: flex;
+  flex-wrap: wrap;
+  border: 1px solid white;
+  width: 80%;
+  height: 350px;
+  margin: 0 auto;
+  line-height: 1.5;
+  background-color: #3d3f5a;
+  border-radius: 5px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.standardbox {
+  border-radius: 5px;
+  background-color: #3d3f5a;
+}
+/* font and color variables*/
+/*  media at if's*/
