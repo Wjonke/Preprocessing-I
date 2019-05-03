@@ -278,7 +278,7 @@ header .linkbutton {
   border-radius: 5px;
   padding: 5px;
 }
-#introduction {
+.introduction {
   display: flex;
   flex-wrap: wrap;
   border: 1px solid white;
@@ -291,7 +291,7 @@ header .linkbutton {
   margin-top: 10px;
   border-radius: 5px;
 }
-#introduction p {
+.introduction p {
   text-align: justify;
   margin: 20px 60px 20px 60px;
 }
@@ -466,7 +466,7 @@ header .linkbutton {
 .mainContent .certs h2 {
   text-align: center;
 }
-footer #addinfo {
+footer .addinfo {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -479,24 +479,24 @@ footer #addinfo {
   margin-top: 10px;
   border-radius: 5px;
 }
-footer #addinfo h2,
-footer #addinfo h3,
-footer #addinfo h4,
-footer #addinfo h5,
-footer #addinfo li,
-footer #addinfo p {
+footer .addinfo h2,
+footer .addinfo h3,
+footer .addinfo h4,
+footer .addinfo h5,
+footer .addinfo li,
+footer .addinfo p {
   margin: 20px 60px 20px 60px;
 }
-footer #addinfo h2,
-footer #addinfo h3,
-footer #addinfo h4,
-footer #addinfo h5 {
+footer .addinfo h2,
+footer .addinfo h3,
+footer .addinfo h4,
+footer .addinfo h5 {
   line-height: 0.75;
 }
-footer #addinfo p {
+footer .addinfo p {
   line-height: 1.5;
 }
-footer #addinfo h2 {
+footer .addinfo h2 {
   text-align: center;
 }
 footer .bottomlink {
@@ -553,3 +553,174 @@ footer .navbarbottom a:hover {
 }
 /* font and color variables*/
 /*  media at if's*/
+@media (min-width: 0px) and (max-width: 500px) {
+  .navbar {
+    display: flex;
+    width: 100%;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+  }
+  .navbar a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    font-size: 14px;
+  }
+}
+@media (min-width: 0px) and (max-width: 500px) {
+  .main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+    margin-top: 115px;
+    width: 100%;
+  }
+  .main-container .mainheader {
+    display: flex;
+    height: 550px;
+  }
+  .main-container .mainheader .contact .selfImg {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .main-container .introduction {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+  }
+  .main-container .mainContent {
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center;
+  }
+  .main-container .mainContent .workhistory {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 1420px;
+  }
+  .main-container .mainContent .workhistory h2 {
+    font-size: 3em;
+  }
+  .main-container .mainContent .workhistory h3 {
+    font-size: 2em;
+    text-align: left;
+  }
+  .main-container .mainContent .workhistory h4 {
+    font-size: 1.5em;
+  }
+  .main-container .mainContent .workhistory h5 {
+    font-size: 1em;
+  }
+  .main-container .mainContent .workhistory p {
+    font-size: 0.75em;
+  }
+  .main-container .mainContent .workhistory li {
+    font-size: 0.75em;
+  }
+  .main-container .mainContent .workhistory .armyskills {
+    display: none;
+  }
+  .main-container .mainContent .education {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 770px;
+  }
+  .main-container .mainContent .education h2 {
+    font-size: 3em;
+  }
+  .main-container .mainContent .education h3 {
+    font-size: 2em;
+    text-align: left;
+  }
+  .main-container .mainContent .education h4 {
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .skills {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    height: 1025px;
+  }
+  .main-container .mainContent .skills h2 {
+    font-size: 3em;
+  }
+  .main-container .mainContent .skills h3 {
+    font-size: 2em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .skills h4 {
+    font-size: 1.5em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .skills li {
+    font-size: 1em;
+    text-align: left;
+  }
+  .main-container .mainContent .militaryservice {
+    height: 470px;
+  }
+  .main-container .mainContent .militaryservice h2 {
+    font-size: 3em;
+  }
+  .main-container .mainContent .militaryservice h3 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .militaryservice h4 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .militaryservice h5 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .certs {
+    height: 740px;
+  }
+  .main-container .mainContent .certs h2 {
+    font-size: 2.5em;
+    line-height: 1.25;
+  }
+  .main-container .mainContent .certs h3 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .certs h4 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container .mainContent .certs h5 {
+    font-size: 1em;
+    text-align: left;
+    line-height: 1.5;
+  }
+  .main-container footer {
+    border: 2px solid green ;
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+    align-items: center;
+  }
+}
